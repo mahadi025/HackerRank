@@ -37,7 +37,7 @@ yes
 Explanation 1
 
 Simply perform the tasks 1, 2 and 3 in order.
-/*
+*/
 
 #include<bits/stdc++.h>
 int WHITE =1;
@@ -54,8 +54,8 @@ void dfs(int u){
   for(int i=0;i<adj[u].size();i++){
     int v= adj[u][i];
       if(col[v]==WHITE){
-      dfs(v);
-    }
+        dfs(v);
+      } 
     if(col[v]==GREY){
       isCycle= true;
     }
@@ -68,13 +68,13 @@ int main(){
   for(int i=0; i<e; i++){
     int u, v;
     cin>>u>>v;
-      adj[u].push_back(v);
+    adj[u].push_back(v);
   }
   for(int i=1;i<=n;i++){
-      col[i]=WHITE;
+    col[i]=WHITE;
   }
-    for (int i=1;i<=n;i++){
-      if(col[i]==WHITE){
+  for (int i=1;i<=n;i++){
+    if(col[i]==WHITE){
       dfs(i);
     }  
   }
@@ -82,6 +82,6 @@ int main(){
     cout<<"no"<<endl;
   }
   else{
-      cout<<"yes"<<endl;
+    cout<<"yes"<<endl;
   }
 }

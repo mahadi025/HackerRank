@@ -20,7 +20,7 @@ Sample Input 0
 Sample Output 0
 
 1 2 3 4 5
-/*
+*/
 #include<iostream>
 #include<cmath>
 #include<iomanip>

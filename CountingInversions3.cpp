@@ -77,8 +77,7 @@ void mergeSort(ll arr[],ll n)
     }
 }
 
-int main()
-{
+int main(){
     ll i,n;
     cin>>n;
     ll arr[n];

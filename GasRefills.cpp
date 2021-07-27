@@ -29,8 +29,7 @@ Sample Output 0
 using namespace std;
 typedef long long int ll;
 
-int main()
-{
+int main(){
     ll n,k,i,cnt=1,sum;
     cin>>n>>k;
     ll arr[n];

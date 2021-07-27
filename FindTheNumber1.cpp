@@ -59,8 +59,7 @@ ll binarySearch(ll arr[],ll n,ll target)
     return -1;
 }
 
-int main()
-{
+int main(){
     ll n,i,m;
     cin>>n>>m;
     ll arr[n],queries[m];

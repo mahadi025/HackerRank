@@ -24,12 +24,9 @@ Sample Output 0
 using namespace std;
 typedef long long int ll;
 
-int main()
-{
+int main(){
     int N,hundred,fifty,twenty,ten,five,two,one,fiveHundred;
-
     cin>>N;
-
     fiveHundred=N/500;
     N=N-(500*fiveHundred);
     hundred=N/100;
@@ -45,6 +42,5 @@ int main()
     two=N/2;
     N=N-(2*two);
     one=N/1;
-
     cout<<fiveHundred+hundred+fifty+twenty+ten+five+two+one<<endl;
 }
